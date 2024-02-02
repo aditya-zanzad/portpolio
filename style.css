@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.generate-meme {
+    text-align: center;
+    margin: 50px;
+}
+
+.generate-meme img {
+    height: 50%;
+    width: 50%;
+    max-height: 50%;
+    max-width: 70%;
+    height: auto;
+    margin-top: 20px;
+    border: 2px solid #333;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
